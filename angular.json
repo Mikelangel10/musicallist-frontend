@@ -85,7 +85,7 @@
   },
   "schematics": {
     "@schematics/angular:component": {
-      "style": "scss",
+      "style": "css",
       "skipTests": true,
       "standalone": true
     },
