@@ -11,19 +11,15 @@ import { HeaderComponent } from './shared/header/header.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   standalone: true,
-
   imports: [
     FavoritesComponent,
     ConnectionsComponent,
     UserProfileComponent,
     RouterOutlet,
+    FooterComponent,
+    HeaderComponent,
   ],
-=======
-  imports: [FooterComponent, HeaderComponent],
-
-  imports: [FooterComponent, HeaderComponent],
-
-
+})
 export class AppComponent {
   title = 'Musicallist';
   name = 'Miguel';
