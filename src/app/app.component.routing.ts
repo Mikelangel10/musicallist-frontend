@@ -1,14 +1,6 @@
 import { Routes } from '@angular/router';
-import { UserProfileComponent } from './pages/user-profile/user-profile.component';
-import { FavoritesComponent } from './pages/favorites/favorites.component';
-import { ConnectionsComponent } from './pages/connections/connections.component';
 
 export const routes: Routes = [
-  {
-    path: '',
-    pathMatch: 'full',
-    loadComponent: () => import('./app.component').then((m) => m.AppComponent),
-  },
   {
     path: 'usuario',
     loadComponent: () =>
