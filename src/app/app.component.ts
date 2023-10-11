@@ -20,7 +20,4 @@ import { HeaderComponent } from './shared/header/header.component';
     HeaderComponent,
   ],
 })
-export class AppComponent {
-  title = 'Musicallist';
-  name = 'Miguel';
-}
+export class AppComponent {}
