@@ -1,3 +1,16 @@
-img {
-  width: 100px;
+h1,
+h2 {
+  background-color: white;
+  color: #10256d;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  color: grey;
+  text-align: center;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 70px;
 }
