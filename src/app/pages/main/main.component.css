@@ -4,13 +4,48 @@ h2 {
   color: #10256d;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 19px;
 }
 
 p {
   color: grey;
-  text-align: center;
+  text-align: left;
   width: 50%;
-  align-items: center;
   margin: auto;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
+}
+main {
+  padding-top: 5%;
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    text-align: left;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    text-align: left;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    text-align: left;
+    font-size: 22.2px;
+  }
 }
