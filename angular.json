@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "musicallist-frontend:build:production"
+              "buildTarget": "musicallist-frontend:build:production"
             },
             "development": {
-              "browserTarget": "musicallist-frontend:build:development"
+              "buildTarget": "musicallist-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -70,7 +70,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "musicallist-frontend:build"
+            "buildTarget": "musicallist-frontend:build"
           }
         },
         "test": {
