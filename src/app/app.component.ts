@@ -5,6 +5,7 @@ import { UserProfileComponent } from './pages/user-profile/user-profile.componen
 import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { HeaderComponent } from './shared/header/header.component';
     RouterOutlet,
     FooterComponent,
     HeaderComponent,
+    ReactiveFormsModule,
   ],
 })
 export class AppComponent {}
