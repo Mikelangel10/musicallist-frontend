@@ -1,0 +1,22 @@
+<form [formGroup]="myform" (ngSubmit)="(onSave)" autocomplete="off">
+  <label>
+    <p>Introduce tu email:</p>
+  </label>
+  <input
+    type="email"
+    formControlName="email"
+    placeholder="Introduce tu email"
+  />
+  {{ !validField("email") ? "" : "El email es requerido" }}
+
+  <p>Introduce tu contraseña:</p>
+  <input
+    type="password"
+    formControlName="password"
+    placeholder="Introduce tu contraseña"
+  />
+  {{ !validField("password") ? "" : "La contraseña no es valida" }}
+</form>
+<div class="button">
+  <input type="button" value="Enviar" />
+</div>
