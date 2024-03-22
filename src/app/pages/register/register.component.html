@@ -1,0 +1,30 @@
+<form [formGroup]="myForm" (ngSubmit)="(onSave)" autocomplete="off">
+  <h2>Bienvenido a Musicallist</h2>
+  <div class="texto">
+    <p>
+      Rellena los siguientes campos con tu información y formarás parte de
+      nuestra web. Pronto recibirás noticias.
+    </p>
+  </div>
+
+  <div class="name">
+    <input type="text" formControlName="name" placeholder="Nombre" />
+    {{ !validField("name") ? "" : "El nombre es requerido" }}
+  </div>
+
+  <div class="email">
+    <input type="email" formControlName="email" placeholder="Email" />
+    {{ !validField("email") ? "" : "El email es requerido" }}
+  </div>
+
+  <div class="password">
+    <input
+      type="password"
+      formControlName="password"
+      placeholder="Contraseña"
+    />
+    {{ !validField("password") ? "" : "La contraseña no es valida" }}
+  </div>
+</form>
+
+<button type="submit">Enviar</button>
