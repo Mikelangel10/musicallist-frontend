@@ -1,0 +1,59 @@
+h2 {
+  padding: 0.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 1%;
+}
+
+form {
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.texto {
+  padding-bottom: 17px;
+  font-size: 13px;
+  color: #bac2db;
+  text-align: justify;
+  width: 22%;
+  margin: auto;
+  margin-left: 41%;
+}
+
+input {
+  border-radius: 0.5em;
+  height: 44px;
+  width: 245px;
+  background-color: #f2ecec;
+  padding: 5px;
+  border: none;
+}
+
+.name {
+  padding-bottom: 15px;
+}
+
+.email {
+  padding-bottom: 15px;
+}
+
+.password {
+  padding-bottom: 45px;
+}
+
+button {
+  font-size: 19px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #4299e1;
+  color: white;
+  padding: 14.5px;
+  border-radius: 0.5em;
+  border: none;
+  margin-left: 53.5%;
+  width: 115px;
+  margin-bottom: 30px;
+  height: 48px;
+}
+
+::placeholder {
+  padding-left: 12px;
+}
