@@ -25,6 +25,14 @@
     />
     {{ !validField("password") ? "" : "La contraseña no es valida" }}
   </div>
+  <div class="repetirPassword">
+    <input
+      type="password"
+      formControlName="password2"
+      placeholder="Repite tu contraseña"
+    />
+    {{ !validField("password2") ? "" : "Las contraseñas deben ser iguales" }}
+  </div>
 </form>
 
 <button type="submit">Enviar</button>
