@@ -37,6 +37,10 @@ input {
 }
 
 .password {
+  padding-bottom: 15px;
+}
+
+.repetirPassword {
   padding-bottom: 45px;
 }
 
